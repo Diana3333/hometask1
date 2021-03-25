@@ -44,3 +44,10 @@ let name4=prompt('what is your name',"Diana");
 let email=prompt('what is your email',"Diana576@gmail.com");
 let password=prompt('what is your name',"Diana333");
 alert("Dear "+name4+", your pasword is"+password+" ,your email is "+email);
+//task8
+let second=1;
+let minute=60*second;
+let date=24*minute;
+let month=30*date;
+
+
