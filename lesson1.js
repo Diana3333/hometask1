@@ -7,9 +7,9 @@ data=5;
 let note;
 note1=7;
 console.log(data);
-console.log(note1)
+console.log(note1);
 document.write(data);
-<br></br>
+
 document.write(note1);
 alert(data);
 alert(note1);
@@ -32,7 +32,7 @@ console.log(age1);
 
 //task5
 let isAdmin = confirm('Do you have 18 years old?');
-console.log( isAdmin)
+console.log( isAdmin);
 //task6
 let firstName="Diana";
 let LastName="Patrii";
@@ -43,11 +43,9 @@ document.write(firstName+LastName+age+group);
 let name4=prompt('what is your name',"Diana");
 let email=prompt('what is your email',"Diana576@gmail.com");
 let password=prompt('what is your name',"Diana333");
-alert("Dear "+name4+", your pasword is"+password+" ,your email is "+email);
-//task8
-let second=1;
-let minute=60*second;
-let date=24*minute;
-let month=30*date;
+alert("Dear "+name4+", your pasword is "+password+" ,your email is "+email);
+
+
+
 
 
