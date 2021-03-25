@@ -5,8 +5,6 @@ let data;
 data=5;
 let note;
 console.log(data);
-
-note=7;
 console.log(note)
 document.write("data");
 document.write("note");
