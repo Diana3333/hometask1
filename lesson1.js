@@ -45,9 +45,11 @@ let email=prompt('what is your email',"Diana576@gmail.com");
 let password=prompt('what is your name',"Diana333");
 alert("Dear "+name4+", your pasword is "+password+" ,your email is "+email);
 //task8
-alert(60*60);
-alert(60*60*24);
+const secHour =60*60;
 
+const secDay =secHour*24;
+const secMonth =secDay*30;
+console.log('there are '+ secHour + " seconds in hour, " + secDay + "seconds in day and" + secMonth + "seconds in month" )
 
 
 
