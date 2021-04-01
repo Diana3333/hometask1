@@ -50,12 +50,12 @@ console.log(masuv.length);
  let a=prompt("enter length of the biggest side","");
  let b=prompt("enter length of second side","");
  let c=prompt("enter length of third side","");
- if (console.log(isNaN(a)) && console.log(isNaN(b)) && cconsole.log(isNaN(c)) ){console.log("(((a+b+c)/2((a+b+c)2-a((a+b+c)/2-b)((a+b+c)/2-c)**1/2");} else{console.log("Incorrect data");};
+ if (a==Number && b==Number && c==Number ){console.log("(((a+b+c)/2((a+b+c)2-a((a+b+c)/2-b)((a+b+c)/2-c)**1/2");} else{console.log("Incorrect data");};
 if(a*a >=(b*b+c*c&& a*a) >=(b*b+c*c)){console.log("прямокутний")} else {console.log("не прямокутний");};
 //task 7
 //1
-let currentDate= new Data;
-let CurrentTime=CurrentTime.getHours();
+let currentDate= new Date ();
+let time= currentDate.getHours();
 switch(true){case time>=23 && time <=24 ||time >=0 && time <5:console.log("Доброї ночі");
 break;
 case time >+5 && time<11:console.log("Доброго ранку");
@@ -66,8 +66,8 @@ case time >=17 && time<23:console.log("Доброго вечора");
 break;
 default: console.log("Введіть конкретний час")};
 //2
-let currentDate1= new Data_1;
-let CurrentTime1=CurrentTime.getHours();
+let currentDate1= new Date();
+let time1= currentDate1.getHours();
 if( time>=23 && time <=24 ||time >=0 && time <5){console.log("Доброї ночі");}
 
  else if(time >+5 && time<11) {console.log("Доброго ранку");}
