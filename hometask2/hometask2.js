@@ -53,7 +53,7 @@ console.log(masuv.length);
  if (a==Number && b==Number && c==Number ){console.log("(((a+b+c)/2((a+b+c)2-a((a+b+c)/2-b)((a+b+c)/2-c)**1/2");} else{console.log("Incorrect data");};
 if(a*a >=(b*b+c*c&& a*a) >=(b*b+c*c)){console.log("прямокутний")} else {console.log("не прямокутний");};
 //task 7
-//1
+//1  
 let currentDate= new Date ();
 let time= currentDate.getHours();
 switch(true){case time>=23 && time <=24 ||time >=0 && time <5:console.log("Доброї ночі");
