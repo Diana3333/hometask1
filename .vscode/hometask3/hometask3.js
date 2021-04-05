@@ -1,34 +1,39 @@
 //task1.1
-let masuv=[2,3,4,5];
-for(let i=0; i<masuv.length; i++){multip*=arr [i];}
-console.log(multip);
+
+let masuv= [2,3,4,5];
+multip =1;
+for ( let i=0; i< masuv.length; i++) { multip*= masuv [i];}
+console.log (multip);
 
 //1.2
 multip=1;
 let k=0;
-while(k<masuv.length){multip*=masuv[k]; k++}
-console.log(multip);
+while(k < masuv.length) { multip *= masuv[k]; k++}
+console.log (multip);
 
 //task2
-for (count=0; count<16; count++) if( count% 2 == 0){console.log( count + " is even");} else
-{ console.log ( count + " is odd")};
- checkcount();
+function ChechOut(){
+for (count=0; count<16; count++)
+ if( count% 2 == 0) {console.log( count + " is even");} else
+{ console.log ( count + " is odd")};}
+ChechOut();
+
  //task3
 
- function k(min, max, numOfRandoms, unique){
+ function z(min, max, numOfRandoms, unique){
    var getRandom = function(x, y){
      return Math.floor(Math.random() * (x - y + 1) + y);
    }
    var randoms = [];
-   while(randoms.length<numOfRandoms){
+   while ( randoms.length < numOfRandoms){
      var random = getRandom(min, max);
-     if(randoms.indexOf(random)==-1||!unique){
-       randoms.push(random);
+     if(randoms.indexOf (random)==-1||!unique){
+       randoms.push ( random);
      }
    }
    return randoms;
 }
-console.log(k(1, 500, 5, true));
+console.log(z(1, 500, 5, true));
 
 //task4
  function raiseToDegree(a,b) {
@@ -42,15 +47,6 @@ console.log(k(1, 500, 5, true));
  console.log(result);
 //task5
 
-//function findMin(){
-//   let result=Math.min();
- //  return result;
-//}
-
-//let result =findMin(12, 14, 4, -4, 0.2);
-//console.log(result);
-
-//task5.1
 function findMin(items) {
    return items.reduce(function(prev, curr, index) {
      let min = Math.min(prev[0], curr);
@@ -70,9 +66,13 @@ function findUnique(arr) {
 findUnique([1, 2, 3, 5, 3]);  // => false
 //task7
 
+var last = function (array, n) 
+{ if (array == null) return void 0; 
+  if (n == null) return array[array.length - 1];
+   return array.slice ( Math.max ( array.length - n, 0)); };
+   console.log ( last ([3, 4, 10, -5]));      // -5
    //task 8
    
-
    function uppercase(str)
    {
      var array1 = str.split(' ');

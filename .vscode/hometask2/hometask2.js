@@ -50,8 +50,19 @@ console.log(masuv.length);
  let a=prompt("enter length of the biggest side","");
  let b=prompt("enter length of second side","");
  let c=prompt("enter length of third side","");
- if (a==Number && b==Number && c==Number ){console.log("(((a+b+c)/2((a+b+c)2-a((a+b+c)/2-b)((a+b+c)/2-c)**1/2");} else{console.log("Incorrect data");};
-if(a*a >=(b*b+c*c&& a*a) >=(b*b+c*c)){console.log("прямокутний")} else {console.log("не прямокутний");};
+ if (a>0 && b>0 && c>0) { let p = (a+b+c)/2;
+let trianglArea = Math.sqrt(p * (p-a) * (p-b) *(p-c));
+console.log("Triangle area is :"  + trianglArea.toFixed(3));
+}
+else{
+   alert("Incorect data")}
+   //b
+   if((a *a +b*b===c*c) || (b*b+c*c===a*a) || (c*c +a*a === b*b )){
+      console.log ("The triamgle is right-angeled")
+   }
+else{
+   console.log("the triangle isn't right-angeled")
+}
 //task 7
 //1  
 let currentDate= new Date ();
