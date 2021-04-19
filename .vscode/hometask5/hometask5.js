@@ -35,6 +35,10 @@ lyly.course7();
 function Student(firstName,lastName) {
    this.firstName = firstName;
    this.lastName=lastName;
-    function showFullName () {firstName+""+ lastName};
+   let devPeterPeterson = new Student("Peter", "Peterson") 
+    function showFullName () { return firstName+""+ lastName};
+
 
 }
+let devPeterPeterson = new Student("Peter", "Peterson") 
+

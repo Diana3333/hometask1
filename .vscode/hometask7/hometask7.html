@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+   <link rel="stylesheet" href="hametask7.css" />
+   <title>Document</title>
+   
+</head>
+<body>
+   <p id ='text'>I learning JavaScript events!</p>
+<div class="task3">
+   <button  onclick="blue_buttom1()">click to make blue</button>
+   <button ondblclick="pink_buttom1()">click to make me pink</button>
+   <button onmousedown="on()" onmouseleave="leave() ">click to and hold to make me brow</button>
+   <a  onmousedown="on()" onmouseenter="over()" onmouseleave="leave() " href="url">Hover over ho make yellow page</a>
+
+</div>
+   <script>9
+      //task1
+
+      let openTab = window.open("https://www.w3schools.com", "w3schools", "width=300,height=300,left=700,top=00");
+      setTimeout(remove_now, 2000);
+      setTimeout(resize_now, 4000);
+      function remove_now(){
+             openTab.moveTo(200,200);  
+    }
+    function resize_now(){
+             openTab.resizeTo(500, 500);
+     }
+    setTimeout(function () { 
+         openTab.close();}, 6000);
+      //task2
+      
+      const btn=document.getElementById("text");
+      function changeCSS(event){
+         event.target.style.color="orange";
+         event.target.style.fontSize="20px";
+         event.targeet.style.fonFamily="Comic Sans MS"}
+      btn.addEventListener("click",changeCSS);
+      //task3
+      
+      function changeColor(color) {
+          document.body.style.background = color;
+      }
+      function blue_buttom1() {
+          changeColor('blue');    
+      }         
+      function pink_buttom1() {
+          changeColor('pink');   
+      } 
+      function blue_buttom1() {
+          changeColor('blue');    }
+       function  on(){
+         changeColor('yellow')
+       };
+       function  leave(){
+         changeColor('white')
+       }  ;
+
+       function  over(){
+         changeColor('yellow')
+       };
+       //task4
+       
+   
+   
+</script>
+</body>
+</html>
