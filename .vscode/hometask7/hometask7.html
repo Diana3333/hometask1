@@ -15,22 +15,36 @@
    <button ondblclick="pink_buttom1()">click to make me pink</button>
    <button onmousedown="on()" onmouseleave="leave() ">click to and hold to make me brow</button>
    <a  onmousedown="on()" onmouseenter="over()" onmouseleave="leave() " href="url">Hover over ho make yellow page</a>
+<!-- task4 <form>
+   <select id="nameSet">
+   <option>Peter</option>
+   <option>John </option>
+   <option>Alise</option>
+   <option>Alex</opton>
+   <option>Iren</option>
+   </selection>
+   <input type="button" id="myBtn" value="Choose and Delete">
+   </form>
+-->
 
+  
+      <!--
+         <div id="result"></div>
+      -->
 </div>
    <script>9
       //task1
 
-      let openTab = window.open("https://www.w3schools.com", "w3schools", "width=300,height=300,left=700,top=00");
-      setTimeout(remove_now, 2000);
-      setTimeout(resize_now, 4000);
-      function remove_now(){
-             openTab.moveTo(200,200);  
-    }
-    function resize_now(){
-             openTab.resizeTo(500, 500);
-     }
-    setTimeout(function () { 
-         openTab.close();}, 6000);
+      let newWindow = window.open("", "", "width=300,height=300");
+      setTimeout(function(){
+         newWindow.resizeTo(500,500);
+      },2000);
+      setTimeout(function(){
+         newWindow.moveTo(200,200);
+      },4000);
+      setTimeout(function(){
+         newWindow.close();
+         }, 6000);
       //task2
       
       const btn=document.getElementById("text");
@@ -39,6 +53,13 @@
          event.target.style.fontSize="20px";
          event.targeet.style.fonFamily="Comic Sans MS"}
       btn.addEventListener("click",changeCSS);
+
+      //function changeCSS()
+      //{
+      //   text.style.color='orange';
+    //     text.style.fontSize="20px";
+    //     text.style.fontFamily="Comic Sans MS";
+     // }
       //task3
       
       function changeColor(color) {
@@ -63,6 +84,15 @@
          changeColor('yellow')
        };
        //task4
+       myBtn.addEventListener("click", deleteColor);
+       function deleteColor()
+       {
+          let x = document.getElementById("nameSet");
+          x.remove(x.selectedIndex);
+       }
+
+       
+
        
    
    

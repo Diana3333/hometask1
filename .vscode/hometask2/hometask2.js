@@ -25,8 +25,14 @@ let x4 =prompt('Enter your number',"")
 let y7=(x4%2);
 let res5=y7>=0 && x4>=0 && y7<=0;
 console.log(  res5);
+//also could be
+// let number=prompt("choose a number");   
+//if (number %2 === 0 && number>0){
+ //  console.log("your number is paired positive");
 
-
+//}
+//else if(number %7===0){ console.log("your number is multiple 7")};
+//else{ console.log("ut's not a number")};
 //b
 let x5 =prompt('Enter your number',"")
 let y8=(x5%7);

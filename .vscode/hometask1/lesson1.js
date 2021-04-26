@@ -38,7 +38,17 @@ let firstName="Diana";
 let LastName="Patrii";
 let age3=22;
 let group=576;
+const here_is_null=nul;
+let here_is_underfined;
 document.write(firstName+LastName+age+group);
+const type_of_firstName=type_of_firstName;
+const type_of_LastName=type_of_LastName;
+const type_of_age3=type_of_age3;
+const type_of_group=type_of_group;
+console.log(type_of_LastName, type_of_age3, type_of_firstName);
+console.log(here_is_null,here_is_underfined);
+
+
 //task 7
 let name4=prompt('what is your name',"Diana");
 let email=prompt('what is your email',"Diana576@gmail.com");
