@@ -1,0 +1,10 @@
+h1{text-align: center;
+
+}
+h1:hover {
+   background-color: rgb(139, 46, 123);
+   transition: 200ms;}
+   img{ width: 300px;
+         height: 250px; 
+
+   }

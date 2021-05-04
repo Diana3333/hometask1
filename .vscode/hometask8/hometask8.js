@@ -1,3 +1,16 @@
+
+
+//task1
+function check(str){
+   let regExp1=/(A-Z)/;
+   if( regExp1.test(str)==true){
+      alert("String starts wit uppercase charecter");
+   } else{
+      alert("String  doesn't start with uppercase characters ");
+   }
+}
+let str="hello";
+check(str);
 //task2
 function checkEmail(data){
    const regExp= /\S+@\S+\.\S+/;
