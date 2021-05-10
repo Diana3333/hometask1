@@ -9,51 +9,54 @@
    
 </head>
 <body>
-   <p id ='text'>I learning JavaScript events!</p>
+   <!-- <p id ='text'>I learning JavaScript events!</p>
 <div class="task3">
    <button  onclick="blue_buttom1()">click to make blue</button>
    <button ondblclick="pink_buttom1()">click to make me pink</button>
    <button onmousedown="on()" onmouseleave="leave() ">click to and hold to make me brow</button>
-   <a  onmousedown="on()" onmouseenter="over()" onmouseleave="leave() " href="url">Hover over ho make yellow page</a>
-<!-- task4 <form>
-   <select id="nameSet">
+   <a  onmousedown="on()" onmouseenter="over()" onmouseleave="leave() " href="url">Hover over ho make yellow page</a> -->
+<!-- task4 -->
+ <form>
+    <select id="nameSet">
    <option>Peter</option>
    <option>John </option>
    <option>Alise</option>
-   <option
-   Alex</opton>
+   <option>Alex</option>
    <option>Iren</option>
    </selection>
    <input type="button" id="myBtn" value="Choose and Delete">
-   </form>
--->
+   </form> 
+<div id="result"></div>
+<!-- myBtn.addEventListener("click", deleteColor);
+function deleteColor()
+{
+   let x = document.getElementById("nameSet");
+   x.remove(x.selectedIndex);
+}  -->
+</div> 
 
-  
-      <!--
-         <div id="result"></div>
-      -->
-</div>
-   <script>9
+
+   <script>
       //task1
 
-      let newWindow = window.open("", "", "width=300,height=300");
-      setTimeout(function(){
-         newWindow.resizeTo(500,500);
-      },2000);
-      setTimeout(function(){
-         newWindow.moveTo(200,200);
-      },4000);
-      setTimeout(function(){
-         newWindow.close();
-         }, 6000);
+      // let newWindow = window.open("", "", "width=300,height=300");
+      // setTimeout(function(){
+      //    newWindow.resizeTo(500,500);
+      // },2000);
+      // setTimeout(function(){
+      //    newWindow.moveTo(200,200);
+      // },4000);
+      // setTimeout(function(){
+      //    newWindow.close();
+      //    }, 6000);
       //task2
       
-      const btn=document.getElementById("text");
-      function changeCSS(event){
-         event.target.style.color="orange";
-         event.target.style.fontSize="20px";
-         event.targeet.style.fonFamily="Comic Sans MS"}
-      btn.addEventListener("click",changeCSS);
+      // const btn=document.getElementById("text");
+      // function changeCSS(event){
+      //    event.target.style.color="orange";
+      //    event.target.style.fontSize="20px";
+      //    event.targeet.style.fonFamily="Comic Sans MS"}
+      // btn.addEventListener("click",changeCSS);
 
       //function changeCSS()
       //{
@@ -61,29 +64,29 @@
     //     text.style.fontSize="20px";
     //     text.style.fontFamily="Comic Sans MS";
      // }
-      //task3
+      // task3
       
-      function changeColor(color) {
-          document.body.style.background = color;
-      }
-      function blue_buttom1() {
-          changeColor('blue');    
-      }         
-      function pink_buttom1() {
-          changeColor('pink');   
-      } 
-      function blue_buttom1() {
-          changeColor('blue');    }
-       function  on(){
-         changeColor('yellow')
-       };
-       function  leave(){
-         changeColor('white')
-       }  ;
+      // function changeColor(color) {
+      //     document.body.style.background = color;
+      // }
+      // function blue_buttom1() {
+      //     changeColor('blue');    
+      // }         
+      // function pink_buttom1() {
+      //     changeColor('pink');   
+      // } 
+      // function blue_buttom1() {
+      //     changeColor('blue');    }
+      //  function  on(){
+      //    changeColor('yellow')
+      //  };
+      //  function  leave(){
+      //    changeColor('white')
+      //  }  ;
 
-       function  over(){
-         changeColor('yellow')
-       };
+      //  function  over(){
+      //    changeColor('yellow')
+      //  };
        //task4
        myBtn.addEventListener("click", deleteColor);
        function deleteColor()

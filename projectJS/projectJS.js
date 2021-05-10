@@ -1,8 +1,11 @@
+
 let householdAppliances =[
-   {
+   { id:'Lamp',
    title:'Lamp',
    image: src="https://cb.scene7.com/is/image/Crate/EllaWhiteTableLampOffSHF15",
+   
 },
+
 {
    title:'blinds',
    image:'https://images-na.ssl-images-amazon.com/images/I/61XVdtXiZcL._AC_SX466_.jpg'
@@ -15,6 +18,7 @@ image:'https://media-exp1.licdn.com/dms/image/C4D1BAQF_F8zt505Itg/company-backgr
 }
 
 ];
+
 for (const householdAppliance of householdAppliances){
    document.write(`
    <div class="allItems">
@@ -33,3 +37,10 @@ function Items_on() {
 function Items_of() {
    changeColor('white');    
 }     
+
+// myBtn.addEventListener("click", deleteColor);
+// function deleteColor()
+// {
+//    let x = document.getElementById("nameSet");
+//    x.remove(x.selectedIndex);
+// }
