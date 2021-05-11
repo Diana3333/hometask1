@@ -38,9 +38,3 @@ function Items_of() {
    changeColor('white');    
 }     
 
-// myBtn.addEventListener("click", deleteColor);
-// function deleteColor()
-// {
-//    let x = document.getElementById("nameSet");
-//    x.remove(x.selectedIndex);
-// }
