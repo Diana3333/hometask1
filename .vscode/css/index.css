@@ -1,0 +1,55 @@
+td {
+   border: 1px solid blue;
+   text-align: center;
+ }
+ table {
+   border: 1px solid blue;
+   width: 50%;
+   margin: auto;
+ }
+ .bb {
+   border: 1px solid black;
+   text-align: center;
+   background: seashell;
+ }
+ .heading {
+   text-decoration: underline overline 3px solid black;
+   text-align: center;
+   color: rgb(3, 3, 20);
+   background: rgb(241, 127, 148);
+ }
+ .image > img {
+   width: 400px;
+   height: 350px;
+ }
+ .image {
+   text-align: center;
+ }
+ strong {
+   color: plum;
+ }
+ strong:hover {
+   color: red;
+ }
+ td:hover {
+   background-color: rgb(139, 46, 123);
+   transition: 200ms;
+ }
+ tr > td {
+   background: rgb(59, 147, 235);
+ }
+ .lala {
+   margin: 0px;
+   float: left;
+   width: 70%;
+   height: 1000px;
+   background-color: yellowgreen;
+ }
+ .goals {
+   margin: 0px;
+   float: right;
+   width: 30%;
+   height: 1000px;
+   background-color: rgb(226, 78, 78);
+ }
+ 
