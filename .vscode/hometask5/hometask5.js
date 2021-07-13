@@ -184,3 +184,7 @@ function handleFigures(figures){
 const figures = [ new Triangle(4,5), new Square(7), new Circle(5)];
 console.log(handleFigures(figures));
 
+let cities=['Rome','lviv','wassr'];
+for (let i=0; i<cities.length;i+2){cities [i]=cities[i]+"!"}
+console.log(cities);
+

@@ -1,0 +1,63 @@
+.logo{
+   width: 30%;
+   height:30%;
+   
+}
+.imagestop{
+   color: rgb(245, 158, 97);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:  32pt;
+}
+td{ 
+width: 13%;
+text-align:center;
+Font-family:Calibri;
+font: 33px;;
+font-weight : Bold;
+color:CC9F34;
+};
+h1{
+   font: size 130px;
+  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-left: 30%;
+border-left: 30%;}
+
+
+/* .backgroundimage{ background-image: url('file:///C:/Users/Diana/Desktop/vscode/hometask1/.vscode/g3/image/center_picture.jpg');
+   width: 1920px; 
+    height: 467px;
+} */
+/* .backgroundimage{ background-image: url('C:\Users\Diana\Desktop\vs code\hometask1\.vscode\g3\image\center_picturejpg');
+   width: 1920px; 
+    height: 467px;
+} */
+/* .backgroundimage{ background-image: url('https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg');
+   width: 1920px; 
+    height: 467px;
+} */
+img{
+   width:183px;
+   height:159px;
+}
+
+
+td>img{ width:191px;
+   height: 186px;
+
+}
+body{ 
+   
+   background-image: url('/C:/Users/Diana/Desktop/vs code/hometask1/.vscode/g3/image/center_picture.jpg') ;
+  
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.last{
+   /* background-color:rgb(160, 42, 128); */
+   width: 100%;
+   height:30%;
+   /* color: coral; */
+   background-color: lightblue;
+   h2{
+      text-align:flex: };

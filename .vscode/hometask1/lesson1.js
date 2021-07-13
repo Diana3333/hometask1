@@ -61,7 +61,7 @@ const secDay =secHour*24;
 const secMonth =secDay*30;
 console.log('there are '+ secHour + " seconds in hour, " + secDay + "seconds in day and" + secMonth + "seconds in month" )
 
-
+ 
 
 
 

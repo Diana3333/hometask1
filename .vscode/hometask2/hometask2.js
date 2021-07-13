@@ -45,6 +45,12 @@ console.log(masuv.length);
  console.log(masuv);
  let first =masuv.shift();
  console.log(masuv);
+
+ let masuv=["2","","true","nul"]
+ console.log(masuv.length);
+ masuv[6]=prompt('eenter smt','')
+ let first=masuv.shift();
+ console.log(masuv);
  //task4
  let cities=["Rome","lviv","Warsaw"];
  console.log(cities[0]+"*"+ cities[1]+"*"+cities[2]);
