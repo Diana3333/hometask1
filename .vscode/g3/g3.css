@@ -1,41 +1,37 @@
+body{ width:1920px;
+   height:2160px;}
+
 .logo{
-   width: 30%;
-   height:30%;
+width:25%;
+   height:159px;
    
 }
+.logo2{height:159px;
+ 
+
+}
 .imagestop{
-   color: rgb(245, 158, 97);
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size:  32pt;
+   color: #cc9f00;;
+   font-family: "Calibri";
+  font-size:  33pt;
+  font-weight: bold;
+  width:50%;
+  justify-content: center;
+  padding-right: 145px;
+ 
 }
 td{ 
 width: 13%;
 text-align:center;
-Font-family:Calibri;
+Font-family:"Calibri";
 font: 33px;;
 font-weight : Bold;
-color:CC9F34;
+color:"CC9F34";
 };
-h1{
-   font: size 130px;
-  
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-left: 30%;
-border-left: 30%;}
 
 
-/* .backgroundimage{ background-image: url('file:///C:/Users/Diana/Desktop/vscode/hometask1/.vscode/g3/image/center_picture.jpg');
-   width: 1920px; 
-    height: 467px;
-} */
-/* .backgroundimage{ background-image: url('C:\Users\Diana\Desktop\vs code\hometask1\.vscode\g3\image\center_picturejpg');
-   width: 1920px; 
-    height: 467px;
-} */
-/* .backgroundimage{ background-image: url('https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg');
-   width: 1920px; 
-    height: 467px;
-} */
+
+
 img{
    width:183px;
    height:159px;
@@ -46,18 +42,98 @@ td>img{ width:191px;
    height: 186px;
 
 }
-body{ 
+
+.backgroundimage{ 
    
+   width:1920px;
    background-image: url('/C:/Users/Diana/Desktop/vs code/hometask1/.vscode/g3/image/center_picture.jpg') ;
   
     background-repeat: no-repeat;
-    background-size:contain;
+    
+    background-size: cover;  
 }
+
 .last{
-   /* background-color:rgb(160, 42, 128); */
-   width: 100%;
-   height:30%;
-   /* color: coral; */
-   background-color: lightblue;
-   h2{
-      text-align:flex: };
+ 
+   width: 1920px;
+ 
+  
+   background-color:#f3e9bc;
+  }
+   
+    .insta{
+       font-family:"Calibri" ;
+       font-weight:lighter;
+       color:#000000;
+       font-size:25pt;
+       text-align: left;
+       width: 640px;
+       justify-content: center;
+       padding-left:130px;
+
+
+    }
+    .coc{font-family:"Calibri" ;
+      font-weight:lighter;
+      color:#000000;
+      font-size:25pt;
+      text-align: left;
+      width: 640px;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-left: 30px;
+
+    }
+    h2{
+       text-align:center;
+       font-family: "Calibri";
+       font-size: 39pt;
+       
+       
+    }
+p{
+   color: #CC9F34;
+   font-weight:lighter;
+   font-size: 101pt;;
+   Font-family:"Calibri";
+   padding: 0;
+   margin: 0;
+}
+.instagram{
+   width:30px;
+   height: 30px;
+}
+.contact{
+   font-family: "Calibri";
+   font-size:29pt ;
+   font-weight: bold;
+   color:#000000;
+}
+.telephone{
+   color:black;
+   font-weight: bold;
+   
+}
+a:link {
+   text-decoration: none;
+}
+.number{
+   font-size:30pt;
+   color:#CC9F34;
+   font-weight: bold;
+}
+.size{
+   width:fit-content;
+   width:320px;
+   font-size:21pt;
+   font-weight: bold;
+   
+
+}
+.table{
+   width: 1920px;;
+}
+.topnames{
+   text-align:center;
+  
+}
