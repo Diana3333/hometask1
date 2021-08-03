@@ -1,12 +1,143 @@
+h3{
+   color: #CC9F34;
+   font-size: 200px;
+  
+   text-align: center;
+
+
+}
+header{
+   margin-top: 0px   ;
+}
+.dws-menu{margin: 0px;
+   padding: 4%;
+font-weight:bold ;
+font-family:"Calibri" ;
+color:#CC9F34;
+
+}
+.dws-menu>ul{
+   display:flex;
+
+}
+.dws-menu.li+li{
+   padding:10%
+}
+.dws-menu>ul>li>a{
+
+   display:block;
+   padding: 0px 20px 20px 35px;
+   font-size: 33pt;
+   color:#CC9F34;
+   text-decoration: none;
+   /* justify-self: left; */
+
+}
+.dws-menu>ul>li{
+   position: relative;
+}
+.dws-menu li a:hover{
+   color:#CC8129 ;
+}
+.dws-menu li ul{
+   /* position: absolute; */
+   min-width: 33pt;
+   display: none ;
+   text-decoration:none;
+   /* justify-content: left; */
+}
+
+
+.dws-menu li ul li a{
+   padding: 0px;
+   text-transform:none;
+   text-decoration:none;
+   color:#CC9F34 ;
+  /* justify-content: left; */
+   
+}
+.dws-menu li ul li a:hover{color:#CC8129;
+/* justify-self: left; */
+
+
+
+}
+
+
+.dws-menu li:hover>ul{
+   display: block;
+
+}
+
+
+
+li {
+   list-style-type: none; /* Убираем маркеры */
+  }
+  li>a{font-size:33pt;
+
+  }
+  .dws-menu{font-size:33pt;
+
+   }
+  .dws-menu li>ul li>ul{
+      position:absolute;
+      right: -150px;
+      top:0;
+  }
+
+  ul>li >ul {
+   margin-left: 20px;
+    /* Отступ слева в браузере IE и Opera */
+   padding-left: 5px;
+    /* Отступ слева в браузере Firefox, Safari, Chrome */
+  }
+  ul>li>img{height:159px; 
+   justify-content: center;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+  .topnames{
+     font-size: 33pt;
+     justify-content: left;
+     padding: 0%;
+  }
+  .topnames.o{padding-top: 0%;
+
+  }
+
+
 body{ width:1920px;
    height:2160px;}
 
 .logo{
-width:25%;
-   height:159px;
+width:20%;
+   max-height:159px;
+
    
 }
-.logo2{height:159px;
+.logo2{max-height:159px;
  
 
 }
@@ -21,7 +152,7 @@ width:25%;
  
 }
 td{ 
-width: 13%;
+width: 13%; 
 text-align:center;
 Font-family:"Calibri";
 font: 33px;;
@@ -29,24 +160,21 @@ font-weight : Bold;
 color:"CC9F34";
 };
 
-
-
-
 img{
    width:183px;
    height:159px;
 }
 
 
-td>img{ width:191px;
+td>img{width:191px;
    height: 186px;
 
 }
 
 .backgroundimage{ 
-   
-   width:1920px;
-   background-image: url('/C:/Users/Diana/Desktop/vs code/hometask1/.vscode/g3/image/center_picture.jpg') ;
+     
+   max-width:1920px;
+   background-image: url('D:/vs code/hometask1/.vscode/g3/image/center_picture.jpg') ;
   
     background-repeat: no-repeat;
     
@@ -81,8 +209,11 @@ td>img{ width:191px;
       width: 640px;
       margin-top: 0px;
       padding-top: 0px;
-      padding-left: 40px;
+      padding-left:200px;
 
+    }
+    .endtable.tr.logo{
+       padding-left: 15px;
     }
     h2{
        text-align:center;
@@ -98,6 +229,7 @@ p{
    Font-family:"Calibri";
    padding: 0;
    margin: 0;
+   padding-left: 5%;
 }
 .instagram{
    width:30px;
@@ -131,9 +263,15 @@ a:link {
 
 }
 .table{
-   width: 1920px;;
+   width: 1920px;
+   padding: 4%;
 }
 .topnames{
-   text-align:center;
+   text-align:leftr;
   
+}
+.endtable.td{
+   width: 30%;
+   display: flex;
+
 }

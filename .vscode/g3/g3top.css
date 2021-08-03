@@ -1,0 +1,64 @@
+
+header{
+    margin-top: 0px   ;
+}
+.dws-menu{margin: 0px;
+    padding: 30px;
+font-weight:bold ;
+font-family:"Calibri" ;
+color:#CC9F34;
+
+}
+.dws-menu>ul{
+    display: flex;
+}
+.dws-menu>ul>li>a{
+
+    display:block;
+    padding: 0px 20px 15px 20px;
+    font-size: 33pt;
+    color:#CC9F34;
+    text-decoration: none;
+
+}
+.dws-menu>ul>li{
+    position: relative;
+}
+.dws-menu li a:hover{
+    color:#CC8129 ;
+}
+.dws-menu li ul{
+    /* position: absolute; */
+    min-width: 33pt;
+    display: none ;
+    text-decoration:none;
+}
+.dws-menu li ul li a{
+    padding: 0px;
+    text-transform:none;
+    text-decoration:none;
+    color:#CC9F34 ;
+   
+    
+}
+.dws-menu li ul li a:hover{color:#CC8129
+
+}
+.dws-menu li:hover>ul{
+    display: block;
+
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   .dws-menu li>ul li>ul{
+       position:absolute;
+       right: -150px;
+       top:0;
+   }
+   ul>li >ul {
+    margin-left: 20px;
+     /* Отступ слева в браузере IE и Opera */
+    padding-left: 5px;
+     /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
